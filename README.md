@@ -5,4 +5,4 @@ A demo for barrage on screen.
 ***
 
 ###gif事例
-![image](https://github.com/Mazy-ma/XMBarrageDemo/XMBarrageDemo/demo.gif )
+![image](https://github.com/Mazy-ma/XMBarrageDemo/blob/master/XMBarrageDemo/XMBarrageDemo/demo.gif)
