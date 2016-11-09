@@ -12,6 +12,7 @@
 		9F1174721DD30CB400FCFB5F /* XMBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1174711DD30CB400FCFB5F /* XMBarrageView.m */; };
 		9F1174751DD30CDB00FCFB5F /* XMBarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1174741DD30CDB00FCFB5F /* XMBarrageManager.m */; };
 		9F1174781DD30CF400FCFB5F /* XMCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1174771DD30CF400FCFB5F /* XMCommentModel.m */; };
+		9F11747A1DD3141100FCFB5F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9F1174791DD3141100FCFB5F /* demo.gif */; };
 		9F8CD4B91DD304C7007069A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CD4B81DD304C7007069A0 /* main.m */; };
 		9F8CD4C21DD304C7007069A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8CD4C01DD304C7007069A0 /* Main.storyboard */; };
 		9F8CD4C41DD304C7007069A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8CD4C31DD304C7007069A0 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		9F1174741DD30CDB00FCFB5F /* XMBarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBarrageManager.m; sourceTree = "<group>"; };
 		9F1174761DD30CF400FCFB5F /* XMCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCommentModel.h; sourceTree = "<group>"; };
 		9F1174771DD30CF400FCFB5F /* XMCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCommentModel.m; sourceTree = "<group>"; };
+		9F1174791DD3141100FCFB5F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		9F8CD4B41DD304C7007069A0 /* XMBarrageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMBarrageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8CD4B81DD304C7007069A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F8CD4C11DD304C7007069A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		9F8CD4B71DD304C7007069A0 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				9F1174791DD3141100FCFB5F /* demo.gif */,
 				9F8CD4C01DD304C7007069A0 /* Main.storyboard */,
 				9F8CD4C31DD304C7007069A0 /* Assets.xcassets */,
 				9F8CD4C51DD304C7007069A0 /* LaunchScreen.storyboard */,
@@ -178,6 +181,7 @@
 			files = (
 				9F8CD4C71DD304C7007069A0 /* LaunchScreen.storyboard in Resources */,
 				9F8CD4C41DD304C7007069A0 /* Assets.xcassets in Resources */,
+				9F11747A1DD3141100FCFB5F /* demo.gif in Resources */,
 				9F8CD4C21DD304C7007069A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
