@@ -9,5 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface XMCommentModel : NSObject
+/** 图像网址 */
+@property(nonatomic,copy)NSString *iconImageURL;
+/** 评论 */
+@property(nonatomic,copy)NSString *comment;
 
 @end
