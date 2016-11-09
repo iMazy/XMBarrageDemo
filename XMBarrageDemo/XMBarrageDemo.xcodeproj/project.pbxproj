@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9F11746E1DD30C1B00FCFB5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11746A1DD30C1B00FCFB5F /* AppDelegate.m */; };
 		9F11746F1DD30C1B00FCFB5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F11746D1DD30C1B00FCFB5F /* ViewController.m */; };
+		9F1174721DD30CB400FCFB5F /* XMBarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1174711DD30CB400FCFB5F /* XMBarrageView.m */; };
+		9F1174751DD30CDB00FCFB5F /* XMBarrageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1174741DD30CDB00FCFB5F /* XMBarrageManager.m */; };
+		9F1174781DD30CF400FCFB5F /* XMCommentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F1174771DD30CF400FCFB5F /* XMCommentModel.m */; };
 		9F8CD4B91DD304C7007069A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8CD4B81DD304C7007069A0 /* main.m */; };
 		9F8CD4C21DD304C7007069A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F8CD4C01DD304C7007069A0 /* Main.storyboard */; };
 		9F8CD4C41DD304C7007069A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F8CD4C31DD304C7007069A0 /* Assets.xcassets */; };
@@ -20,6 +23,12 @@
 		9F11746A1DD30C1B00FCFB5F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		9F11746C1DD30C1B00FCFB5F /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		9F11746D1DD30C1B00FCFB5F /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9F1174701DD30CB400FCFB5F /* XMBarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBarrageView.h; sourceTree = "<group>"; };
+		9F1174711DD30CB400FCFB5F /* XMBarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBarrageView.m; sourceTree = "<group>"; };
+		9F1174731DD30CDB00FCFB5F /* XMBarrageManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMBarrageManager.h; sourceTree = "<group>"; };
+		9F1174741DD30CDB00FCFB5F /* XMBarrageManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMBarrageManager.m; sourceTree = "<group>"; };
+		9F1174761DD30CF400FCFB5F /* XMCommentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMCommentModel.h; sourceTree = "<group>"; };
+		9F1174771DD30CF400FCFB5F /* XMCommentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMCommentModel.m; sourceTree = "<group>"; };
 		9F8CD4B41DD304C7007069A0 /* XMBarrageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XMBarrageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F8CD4B81DD304C7007069A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9F8CD4C11DD304C7007069A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,6 +51,12 @@
 		9F1174671DD30BC000FCFB5F /* XMBarrage */ = {
 			isa = PBXGroup;
 			children = (
+				9F1174701DD30CB400FCFB5F /* XMBarrageView.h */,
+				9F1174711DD30CB400FCFB5F /* XMBarrageView.m */,
+				9F1174731DD30CDB00FCFB5F /* XMBarrageManager.h */,
+				9F1174741DD30CDB00FCFB5F /* XMBarrageManager.m */,
+				9F1174761DD30CF400FCFB5F /* XMCommentModel.h */,
+				9F1174771DD30CF400FCFB5F /* XMCommentModel.m */,
 			);
 			path = XMBarrage;
 			sourceTree = "<group>";
@@ -176,7 +191,10 @@
 			files = (
 				9F11746E1DD30C1B00FCFB5F /* AppDelegate.m in Sources */,
 				9F8CD4B91DD304C7007069A0 /* main.m in Sources */,
+				9F1174781DD30CF400FCFB5F /* XMCommentModel.m in Sources */,
+				9F1174721DD30CB400FCFB5F /* XMBarrageView.m in Sources */,
 				9F11746F1DD30C1B00FCFB5F /* ViewController.m in Sources */,
+				9F1174751DD30CDB00FCFB5F /* XMBarrageManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

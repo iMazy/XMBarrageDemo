@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  XMBarrageView.h
 //  XMBarrageDemo
 //
 //  Created by TwtMac on 16/11/9.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface XMBarrageView : UIView
 
 @end
-
