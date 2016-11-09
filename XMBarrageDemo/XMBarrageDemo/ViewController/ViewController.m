@@ -59,7 +59,15 @@
 }
 
 
-
+// 开启/关闭弹幕
+- (IBAction)changeAction:(UISwitch *)sender {
+    sender.on = !sender.on;
+    if (sender.isOn) {
+        [self.barrageManager start];
+    } else {
+        [self.barrageManager stop];
+    }
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
